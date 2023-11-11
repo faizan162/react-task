@@ -1,0 +1,93 @@
+.text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.text h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: #ff7518;
+  width: 1180px;
+}
+
+.mechanical {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mechData {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  height: 342px;
+  background: #2f2f2f;
+  margin: 20px 10px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.mechData .head {
+  padding-top: 40px;
+  width: 267px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mechData .img {
+  padding-top: 50px;
+}
+
+.mechData .img span img {
+  margin-top: -30px;
+}
+
+.mechData .img img {
+  border-radius: 15px;
+}
+
+/* Media Query */
+
+@media (max-width: 1185px) {
+  .text h1 {
+    width: 980px;
+  }
+}
+
+@media (max-width: 1018px) {
+  .text h1 {
+    width: 780px;
+  }
+}
+
+@media (max-width: 790px) {
+  .text h1 {
+    width: 580px;
+  }
+}
+
+@media (max-width: 590px) {
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .text h1 {
+    width: auto;
+    margin-top: 50px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 410px) {
+  .text h1 {
+    font-size: 25px;
+  }
+}

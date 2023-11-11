@@ -1,0 +1,238 @@
+.main-div {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.benefits-img img {
+  margin-top: 50px;
+}
+
+.benefits-of-mech h2 {
+  color: #ff7518;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.benefits-of-mech ul {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.benefits-of-mech ul li {
+  font-size: 26px;
+  font-weight: 400;
+  width: 80%;
+}
+
+.plumbing-fee h2 {
+  margin-top: 10px;
+  color: #ff7518;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.plumbing-lists {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 20px;
+}
+
+.plumbing-lists ul li {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+/* Media Query */
+
+@media (max-width: 1246px) {
+  .benefits-of-mech h2 {
+    font-size: 35px;
+  }
+  .benefits-of-mech ul li {
+    font-size: 22px;
+  }
+  .plumbing-fee h2 {
+    font-size: 35px;
+  }
+  .plumbing-lists ul li {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .benefits-of-mech h2 {
+    font-size: 30px;
+  }
+  .benefits-of-mech ul li {
+    font-size: 19px;
+  }
+  .plumbing-fee h2 {
+    font-size: 30px;
+  }
+  .plumbing-lists ul li {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 1035px) {
+  .benefits-of-mech h2 {
+    font-size: 27px;
+    margin-top: 50px;
+  }
+  .benefits-of-mech ul li {
+    font-size: 17px;
+  }
+  .plumbing-fee h2 {
+    font-size: 27px;
+  }
+  .plumbing-lists ul li {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 995px) {
+  .benefits-of-mech h2 {
+    font-size: 25px;
+    margin-top: 70px;
+  }
+  .benefits-img img {
+    width: 90%;
+  }
+  .benefits-of-mech ul li {
+    font-size: 15px;
+  }
+  .plumbing-fee h2 {
+    font-size: 25px;
+  }
+  .plumbing-lists ul li {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 940px) {
+  .main-div {
+    display: block;
+    align-items: center;
+  }
+
+  .benefits-img {
+    display: flex;
+    justify-content: center;
+  }
+  .benefits-img img {
+    width: 90%;
+  }
+  .benefits-of-mech {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .benefits-of-mech h2 {
+    font-size: 40px;
+  }
+  .benefits-of-mech ul li {
+    font-size: 20px;
+  }
+  .plumbing-fee {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .plumbing-fee h2 {
+    font-size: 40px;
+  }
+  .plumbing-lists ul li {
+    font-size: 20px;
+  }
+  .benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 740px) {
+  .benefits-of-mech h2 {
+    font-size: 35px;
+  }
+  .benefits-of-mech ul li {
+    font-size: 20px;
+  }
+  .plumbing-fee h2 {
+    font-size: 35px;
+  }
+  .plumbing-lists ul li {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .benefits-of-mech h2 {
+    font-size: 30px;
+  }
+  .benefits-of-mech ul li {
+    font-size: 18px;
+  }
+  .plumbing-fee h2 {
+    font-size: 30px;
+  }
+  .plumbing-lists ul li {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 560px) {
+  .benefits-of-mech h2 {
+    font-size: 27px;
+  }
+  .benefits-of-mech ul li {
+    font-size: 15px;
+  }
+  .plumbing-fee h2 {
+    font-size: 27px;
+  }
+  .plumbing-lists ul li {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .benefits-of-mech h2 {
+    font-size: 23px;
+  }
+  .benefits-of-mech ul li {
+    font-size: 12px;
+  }
+  .plumbing-fee h2 {
+    font-size: 23px;
+  }
+  .plumbing-lists ul li {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .benefits-of-mech h2 {
+    font-size: 19px;
+  }
+  .benefits-of-mech ul li {
+    font-size: 9px;
+  }
+  .plumbing-fee h2 {
+    font-size: 19px;
+  }
+  .plumbing-lists ul li {
+    font-size: 9px;
+  }
+}
